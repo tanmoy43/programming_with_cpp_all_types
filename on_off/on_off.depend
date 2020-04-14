@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586702498 source:d:\programming contest questions\on_off\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<bits/stdc++.h>
+

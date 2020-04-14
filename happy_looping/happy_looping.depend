@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585403436 source:d:\programming contest questions\happy_looping\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

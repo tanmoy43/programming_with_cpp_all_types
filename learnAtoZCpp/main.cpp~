@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+    string movie="";
+    while(getline(cin, movie)){
+    cout<<"What is the name of the movie:";
+    float metascore = 0;
+    cout<<"What is the metascore rating for"<<movie<<"?\n";
+    cin>>metascore;
+    float tomatometer = 0;
+    cout<<"What is the tomatometer rating for"<<movie<<"?\n";
+    cin>>tomatometer;
+
+    float avg = (metascore+tomatometer)/2;
+
+    float rescale = avg / 10;
+
+    cout<<"Our Calculated average on a 10 point scale for "
+            <<movie<<" is "<< rescale<<".";
+
+    //cout<<""
+    }
+    return 0;
+}
